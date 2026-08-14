@@ -79,7 +79,7 @@ Research artifact. The accompanying manuscript introduces the artifact methodolo
 
 The 20-60-20 collaboration framework that organises the artifact's human-AI split has prior validations in two adjacent domains; see [ARQUITECTURA.md](ARQUITECTURA.md) §"The 20-60-20 collaboration model" for the cite chain.
 
-What this repository ships is the sector-agnostic method. The products derived from it are sector variants — **proVisio Media** (news and media), **proVisio Educatio** (education and training) and **proVisio Commercium** (retail and D2C) — configuration packs over this same core, not forks of it. The boundary is recorded in [VERTICALS.md](VERTICALS.md); none of the variants exists as running code.
+What this repository ships is the sector-agnostic method. The products derived from it are sector variants — **proVisio Media** (news and media), **proVisio Educatio** (education and training) and **proVisio Commercio** (retail and D2C) — configuration packs over this same core, not forks of it. The boundary is recorded in [VERTICALS.md](VERTICALS.md); none of the variants exists as running code.
 
 ## Responsible AI
 

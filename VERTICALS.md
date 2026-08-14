@@ -48,11 +48,18 @@ of the Renaissance treatise the house name alludes to.
 
 - **Media** — news and media publishing. Plural of *medium*, the channel.
 - **Educatio** — education and training.
-- **Commercium** — retail and direct-to-consumer commerce.
+- **Commercio** — retail and direct-to-consumer commerce.
 
 Latin cognates are preferred over Spanish or Portuguese words because the two
 languages diverge on two of the three — *medios*/*meios*, *educación*/*educação* —
 and picking either would have forced the product line to pick a language.
+
+*Commercio* is spelled with two `m`s on purpose. It is at once the Latin ablative
+of *commercium* and the Renaissance Italian noun — the same double life as
+*proportione*, which is both the ablative of *proportio* and the Italian spelling
+Pacioli used on the title page of *De divina proportione* in 1509. The nominative
+*Commercium* was the earlier choice and was dropped for being Latin of a single
+life, legible but inert.
 
 Two candidate sets were rejected the same day. The first was Latin but opaque
 (*Diurna*, *Educatio*, *Signum*): it read well on a cover page and needed a
@@ -86,7 +93,7 @@ negotiation and would have misled the reader it was chosen to serve.
   outside the digital-marketing surface, and therefore the strongest dependence
   on the S5 signal family, which is still at design stage.
 
-### 3. proVisio Commercium — retail and direct-to-consumer commerce
+### 3. proVisio Commercio — retail and direct-to-consumer commerce
 
 - **Focal construct**: brand engagement — digital brand equity, not
   last-click attribution.
