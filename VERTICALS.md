@@ -41,16 +41,28 @@ sector-agnostic.
 Named on 2026-08-14 (issue #2). The core keeps its name: a variant is a suffix
 on `proVisio`, never a replacement for it — there is one core.
 
-The names are Latin, in the register of the Renaissance treatise the house name
-alludes to. Each says what its variant measures:
+Each name is a Latin noun that names its **sector** and is a transparent cognate
+in Spanish, Portuguese and English. A variant name has one job — to tell a reader
+which product it is, without a gloss — and these do it while keeping the register
+of the Renaissance treatise the house name alludes to.
 
-- **Diurna** — from *acta diurna*, the daily gazette of Rome and the ancestor of
-  *giornale*, *journal*, *diario*.
-- **Educatio** — the rearing and instruction of a person.
-- **Signum** — a mark, a sign, a seal. A brand is a mark; brand equity is what
-  that mark is worth.
+- **Media** — news and media publishing. Plural of *medium*, the channel.
+- **Educatio** — education and training.
+- **Commercium** — retail and direct-to-consumer commerce.
 
-### 1. proVisio Diurna — news and media publishing
+Latin cognates are preferred over Spanish or Portuguese words because the two
+languages diverge on two of the three — *medios*/*meios*, *educación*/*educação* —
+and picking either would have forced the product line to pick a language.
+
+Two candidate sets were rejected the same day. The first was Latin but opaque
+(*Diurna*, *Educatio*, *Signum*): it read well on a cover page and needed a
+footnote in a meeting. The second was plain English (*Media*, *Education*,
+*Retail*): self-explanatory, but it dropped the register for nothing, since the
+Latin cognates are just as legible. *Negotiatio* was rejected for the retail slot
+despite meaning trade in Latin, because its Spanish cognate *negociación* means
+negotiation and would have misled the reader it was chosen to serve.
+
+### 1. proVisio Media — news and media publishing
 
 - **Focal construct**: influence — reach into decision-maker audiences rather
   than raw traffic volume.
@@ -74,7 +86,7 @@ alludes to. Each says what its variant measures:
   outside the digital-marketing surface, and therefore the strongest dependence
   on the S5 signal family, which is still at design stage.
 
-### 3. proVisio Signum — retail and direct-to-consumer commerce
+### 3. proVisio Commercium — retail and direct-to-consumer commerce
 
 - **Focal construct**: brand engagement — digital brand equity, not
   last-click attribution.
@@ -84,6 +96,9 @@ alludes to. Each says what its variant measures:
 - **Note**: the only variant where the KPI store has a transactional source of
   truth, which makes it the cheapest to validate quantitatively and the most
   exposed to attribution disputes.
+- **The name states the sector, not the construct.** This variant measures brand
+  equity; attributed sales are not its output. Anyone positioning it should say
+  so, because the name will not.
 
 ## Relationship to the research artifact
 
