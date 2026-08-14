@@ -44,6 +44,7 @@ visio-public/
 ├── CITATION.cff                     Cite the artifact / paper
 ├── LICENSE                          Apache-2.0
 ├── README.md                        This file
+├── VERTICALS.md                     Sector variants: invariant core vs per-sector config
 ├── requirements.txt                 Demo dependencies (synthetic only)
 ├── requirements-cloud.txt           Optional Google Cloud connectors
 └── visio/
@@ -77,6 +78,8 @@ The production deployment uses the same `visio/widgets/` and `visio/connectors/`
 Research artifact. The accompanying manuscript introduces the artifact methodologically; this repository is the reference implementation cited in that manuscript. The research line continues with empirical case studies on Iberian SMEs.
 
 The 20-60-20 collaboration framework that organises the artifact's human-AI split has prior validations in two adjacent domains; see [ARQUITECTURA.md](ARQUITECTURA.md) §"The 20-60-20 collaboration model" for the cite chain.
+
+What this repository ships is the sector-agnostic method. The products derived from it are sector variants — configuration packs over this same core, not forks of it. The boundary is recorded in [VERTICALS.md](VERTICALS.md); none of the variants exists as running code.
 
 ## Responsible AI
 
