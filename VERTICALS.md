@@ -38,10 +38,19 @@ sector-agnostic.
 
 ## The three variants
 
-Names are **not decided**; the labels below are descriptive placeholders.
-See the naming issue in this repository.
+Named on 2026-08-14 (issue #2). The core keeps its name: a variant is a suffix
+on `proVisio`, never a replacement for it — there is one core.
 
-### 1. News and media publishing
+The names are Latin, in the register of the Renaissance treatise the house name
+alludes to. Each says what its variant measures:
+
+- **Diurna** — from *acta diurna*, the daily gazette of Rome and the ancestor of
+  *giornale*, *journal*, *diario*.
+- **Educatio** — the rearing and instruction of a person.
+- **Signum** — a mark, a sign, a seal. A brand is a mark; brand equity is what
+  that mark is worth.
+
+### 1. proVisio Diurna — news and media publishing
 
 - **Focal construct**: influence — reach into decision-maker audiences rather
   than raw traffic volume.
@@ -53,7 +62,7 @@ See the naming issue in this repository.
   reweighting of a generic funnel — the denominator changes from "audience" to
   "audience that decides".
 
-### 2. Education and training
+### 2. proVisio Educatio — education and training
 
 - **Focal construct**: formation — enrolment, completion, and the loop by which
   a learner becomes an advocate or a trainer.
@@ -65,7 +74,7 @@ See the naming issue in this repository.
   outside the digital-marketing surface, and therefore the strongest dependence
   on the S5 signal family, which is still at design stage.
 
-### 3. Retail and direct-to-consumer commerce
+### 3. proVisio Signum — retail and direct-to-consumer commerce
 
 - **Focal construct**: brand engagement — digital brand equity, not
   last-click attribution.
