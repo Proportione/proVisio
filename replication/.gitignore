@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+evaluacion/audit-log.jsonl
+.pytest_cache/

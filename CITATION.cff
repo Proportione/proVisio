@@ -1,18 +1,40 @@
 cff-version: 1.2.0
-title: "Provisio: an LLM-mediated multi-tenant Business Intelligence artifact for SMEs"
-message: "If you use this software, please cite the accompanying manuscript (currently under double-blind review). Author and citation details will be updated upon acceptance."
+title: "ProVisio: an LLM-mediated multi-tenant BI artifact for SMEs"
+message: "If you use ProVisio in academic work, please cite the accompanying paper (preferred-citation below)."
 type: software
 authors:
-  - name: "Authors withheld for double-blind review"
-repository-code: "https://github.com/Proportione/visio"
+  - family-names: Cuervo
+    given-names: Javier
+    orcid: "https://orcid.org/0009-0006-7134-2894"
+    affiliation: "Universidade de Aveiro · DEGEIT · Doctoral Programme in Business Innovation"
+  - family-names: Marques
+    given-names: Rui Pedro Figueiredo
+    orcid: "https://orcid.org/0000-0001-8449-0526"
+    affiliation: "Universidade de Aveiro · ISCA-UA · GOVCOPP"
+date-released: 2026-08-28
 license: Apache-2.0
+repository-code: "https://github.com/Proportione/proVisio"
+url: "https://proVisio.proportione.com"
 keywords:
   - business-intelligence
-  - design-science-research
   - small-and-medium-enterprises
   - large-language-models
+  - design-science-research
   - responsible-ai
-  - digital-signals
-  - kpi
-  - streamlit
-  - multi-tenant
+  - multi-tenant-architecture
+preferred-citation:
+  type: conference-paper
+  title: "From digital signals to sector-specific KPIs: an LLM-mediated BI artifact for SMEs"
+  authors:
+    - family-names: Cuervo
+      given-names: Javier
+      orcid: "https://orcid.org/0009-0006-7134-2894"
+    - family-names: Marques
+      given-names: Rui Pedro Figueiredo
+      orcid: "https://orcid.org/0000-0001-8449-0526"
+  year: 2026
+  conference:
+    name: "CAPSI 2026 — 26th Conference of the Portuguese Association for Information Systems"
+    city: Coimbra
+    country: PT
+  notes: "Accepted as Research-in-Progress (paper 17). Proceedings to appear in the AIS eLibrary; DOI to be added upon publication."

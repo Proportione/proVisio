@@ -1,0 +1,12 @@
+{
+  "_provenance": "Google Search Console, propiedad proportione.com, jun-2026. Congelado 2026-07-02 (gate G1). Cifras reales de ground-truth (FASE2-blueprint-proportione-casoD.md, Anexo S1). NO sinteticas.",
+  "capturedAt": "2026-07-02",
+  "window": "2026-06",
+  "property": "proportione.com",
+  "queries_total": 446,
+  "branded": {"query": "proportione", "impressions": 25, "clicks": 5, "position": 4.5},
+  "top_nonbranded": [
+    {"query": "proyecto profesional", "impressions": 160, "position": 3.3, "ctr": 0.0063},
+    {"query": "que es un proyecto profesional", "impressions": 73, "position": null, "ctr": null}
+  ]
+}

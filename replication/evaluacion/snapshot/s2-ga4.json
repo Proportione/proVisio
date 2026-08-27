@@ -1,0 +1,11 @@
+{
+  "_provenance": "GA4 de proportione.com, ultimos 30d (property id retirado del paquete publico). Congelado 2026-07-02 (gate G1). Cifras reales de ground-truth (FASE2-blueprint-proportione-casoD.md, Anexo S2). NO sinteticas.",
+  "capturedAt": "2026-07-02",
+  "window": "30d",
+  "property": "redacted",
+  "sessions": 317,
+  "channels": {"Direct": 210, "Organic": 74, "Referral": 16, "Unassigned": 7, "Social": 4, "Video": 4, "AI Assistant": 2},
+  "newUsers": 249,
+  "pageviews": 369,
+  "bounce_direct": 0.83
+}

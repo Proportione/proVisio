@@ -1,0 +1,24 @@
+{
+  "_provenance": "crm.proportione.com (core-api /api/crm/deals + /api/crm/stats). El censo (`census`) son cifras agregadas REALES de Proportione congeladas 2026-07-02 (gate G1), de FASE2-blueprint Anexo K1 — datos de primera parte, sin terceros. La lista `deals` es una SHAPE-FIXTURE 100% SINTETICA: reproduce la forma y variedad de etapas de la bateria de tests de produccion del wallboard para ejercer end-to-end la logica REAL del colector portado (build_leads), pero nombres, empresas e importes son inventados. Los registros reales de deal NO se redistribuyen: contienen datos de clientes protegidos tanto por RGPD como por confidencialidad comercial. Las cifras de cabecera de K1 salen de `census`.",
+  "capturedAt": "2026-07-02",
+  "today": "2026-06-18",
+  "census": {
+    "contactos": 500,
+    "clientes": 71,
+    "leads": 411,
+    "prospectos": 17,
+    "deals": 216,
+    "follow_ups_vencidos": 11
+  },
+  "stats": {},
+  "deals": [
+    {"nombre": "Tenant-A — Servicio recurrente", "etapa": "Propuesta hecha", "valorTotal": "30000", "company": "Tenant-A", "nextFollowUp": "2026-06-10"},
+    {"nombre": "Tenant-B — Proyecto plurianual", "etapa": "Negociación", "valorTotal": "150000", "company": "Tenant-B", "nextFollowUp": "2026-06-18"},
+    {"nombre": "Lead frío", "etapa": "Leads", "valorTotal": "", "nextFollowUp": ""},
+    {"nombre": "Contacto medio", "etapa": "Contactados", "valorTotal": "5000", "nextFollowUp": "2026-07-01"},
+    {"nombre": "Cerrado este mes", "etapa": "Ganada", "valorTotal": "12000", "company": "Tenant-C", "fechaCierre": "2026-06-05"},
+    {"nombre": "Cerrado mes pasado", "etapa": "Ganado", "valorTotal": "9000", "fechaCierre": "2026-05-20"},
+    {"nombre": "Perdido", "etapa": "Perdida", "valorTotal": "1000"},
+    {"nombre": "Sin etapa raro", "etapa": "Sin etapa", "valorTotal": "100"}
+  ]
+}

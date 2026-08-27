@@ -6,13 +6,14 @@
 
 A multi-tenant Business Intelligence artifact that puts SME business KPIs and digital signals on the same view, quantifies their relationship, and surfaces prioritised recommendations through an optional LLM-mediated fusion layer.
 
-This repository is the public reference implementation of a research artifact described in a manuscript currently under pre-publication review. The corresponding production deployment runs at the URL declared on the repository's homepage.
+This repository is the public reference implementation of a research artifact described in a paper accepted at CAPSI 2026 (26th Conference of the Portuguese Association for Information Systems, Coimbra, 8–10 October 2026; proceedings in the AIS eLibrary). See [CITATION.cff](CITATION.cff). The corresponding production deployment runs at the URL declared on the repository's homepage.
 
 ## What you can do here
 
 - **Run the demo locally with synthetic data**, no Google Cloud credentials needed.
 - **Read the architecture** of a production multi-tenant BI artifact: see [ARQUITECTURA.md](ARQUITECTURA.md).
 - **Cite the artifact** in your own work: see [CITATION.cff](CITATION.cff).
+- **Replicate the paper's evaluation** offline, with no credentials and no cloud: see [`replication/`](replication/) — a runnable evaluation harness over frozen, provenance-documented data snapshots (`python3 -m pytest replication/tests -q`).
 - **Adapt one of the connectors** to a different SaaS source by following the contract in `visio/connectors/`.
 
 ## Quick start (synthetic, ~2 min)
