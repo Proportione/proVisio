@@ -50,11 +50,11 @@ Weighted total: roughly **80–85% open-source** by lines of dependency. Every p
 
 ## The 20-60-20 collaboration model
 
-Visio applies the **20-60-20 framework** previously introduced by the same line of work in two domains (higher education, defence) — see the paper for citations. The split is:
+Visio applies the **20-60-20 framework** previously introduced by the same line of work in two domains (higher education, defence) — see the paper for citations. The name refers to the framework; the figures are not measured proportions of effort. It distinguishes three stages:
 
-- **20 % human input** — operator parameterises the tenant, picks a focal KPI and a temporal window.
-- **60 % AI generation** — the LLM fusion layer ingests heterogeneous signals, normalises them, performs semantic integration against the KPI schema, and produces narrative explanations with scoring breakdowns.
-- **20 % human judgement** — decision-maker accepts, modifies, or rejects each recommendation. Every action is written to an immutable audit log.
+- **Human input** — the operator parameterises the tenant, picks a focal KPI and a temporal window.
+- **AI generation** — the LLM fusion layer ingests heterogeneous signals, normalises them, performs semantic integration against the KPI schema, and produces narrative explanations with scoring breakdowns.
+- **Human judgement** — the decision-maker accepts, modifies, or rejects each recommendation. Every action is written to an immutable audit log.
 
 The public repository ships the L2 / L4 layers with synthetic data so the 20-60-20 model can be exercised without GCP credentials. The L3 LLM layer is a stub that returns deterministic narratives; production code for the LLM step is not part of this public release.
 
@@ -72,6 +72,10 @@ The artifact is engineered so that a reviewer or an SME with self-hosting prefer
 | Auth | Google OAuth | Keycloak (Apache-2.0) | 30–50 h |
 
 These figures are estimates from the production deployment, included here so a reviewer can budget a self-hosted reproduction.
+
+## Deployment status (October 2026)
+
+The production deployment described in this document (v1: Streamlit front-end and Core API on Cloud Run) was retired on 17 September 2026. The case-study instance has since been reimplemented privately (v2) on the company's own infrastructure, keeping the layered design (KPI store, digital signals, LLM-mediated recommendations) with declarative KPI contracts and a local LLM. It is not publicly accessible and its code is not part of this repository. References to "production" below describe v1.
 
 ## Multi-tenant isolation — current state and known gap
 

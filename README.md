@@ -6,7 +6,7 @@
 
 A multi-tenant Business Intelligence artifact that puts SME business KPIs and digital signals on the same view, quantifies their relationship, and surfaces prioritised recommendations through an optional LLM-mediated fusion layer.
 
-This repository is the public reference implementation of a research artifact described in a paper accepted at CAPSI 2026 (26th Conference of the Portuguese Association for Information Systems, Coimbra, 8–10 October 2026; proceedings in the AIS eLibrary). See [CITATION.cff](CITATION.cff). The corresponding production deployment runs at the URL declared on the repository's homepage.
+This repository is the public reference implementation of a research artifact described in a paper accepted at CAPSI 2026 (26th Conference of the Portuguese Association for Information Systems, Coimbra, 8–10 October 2026; proceedings in the AIS eLibrary). See [CITATION.cff](CITATION.cff). The production instance used in the case study is private and not publicly accessible (see [Status](#status)).
 
 ## What you can do here
 
@@ -72,11 +72,11 @@ visio-public/
         └── tenant_template.py       The single sanitised page template
 ```
 
-The production deployment uses the same `visio/widgets/` and `visio/connectors/` packages, and adds one private page per tenant. Tenant pages and the Core API are not part of this public release.
+The original production deployment (v1, retired on 17 September 2026) used the same `visio/widgets/` and `visio/connectors/` packages and added one private page per tenant. Tenant pages and the Core API are not part of this public release.
 
 ## Status
 
-Research artifact. The accompanying manuscript introduces the artifact methodologically; this repository is the reference implementation cited in that manuscript. The research line continues with empirical case studies on Iberian SMEs.
+Research artifact. The accompanying manuscript introduces the artifact methodologically; this repository is the reference implementation cited in that manuscript. The case-study instance now runs as a private reimplementation (v2) with the same layered design; see [ARQUITECTURA.md](ARQUITECTURA.md#deployment-status-october-2026). The research line continues with empirical case studies on Iberian SMEs.
 
 The 20-60-20 collaboration framework that organises the artifact's human-AI split has prior validations in two adjacent domains; see [ARQUITECTURA.md](ARQUITECTURA.md) §"The 20-60-20 collaboration model" for the cite chain.
 
