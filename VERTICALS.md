@@ -80,6 +80,8 @@ negotiation and would have misled the reader it was chosen to serve.
 - **Why it is a variant and not a tenant**: the KPI vocabulary is not a
   reweighting of a generic funnel — the denominator changes from "audience" to
   "audience that decides".
+- **How influence is measured, and what may not be called influence**:
+  [INFLUENCIA.md](INFLUENCIA.md).
 
 ### 2. proVisio Educatio — education and training
 
