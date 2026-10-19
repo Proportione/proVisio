@@ -11,7 +11,7 @@ lee el snapshot congelado en vez de llamar a core-api con la doble-auth.
 Contrato de datos (verificado contra core-api/crm/repository.mjs):
   - valorTotal es STRING SIEMPRE -> parseFloat estilo JS (prefijo numérico).
   - 'Ganado'/'Ganada' y 'Perdido'/'Perdida' son formas cerradas válidas.
-  - Deals con label 'test' o nombre [TEST] fuera de métrica (CLAUDE.md regla 5).
+  - Deals con label 'test' o nombre [TEST] fuera de métrica (regla 5 de las normas internas).
 """
 
 import re
